@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+}
+
+p {
+    margin: 5px 0px;
+}
+
+/* Title */
+
+.title {
+    text-align: center;
+}
+
+.mainHeader {
+    /* background-color: #E0B648; */
+    width: 32%;
+    font-size: 60px;
+    /* border: #000 3px solid; */
+    padding-bottom: 10px;
+    border-bottom: #E0B648 5px solid;
+    margin: 10px auto;
+    margin-top: 50px;
+}
+
+.navbar {
+    width: 100%;
+    text-align: start;
+    margin-top: 50px;
+    background-color: #000;
+    border-top: #E0B648 3px solid;
+    border-bottom: #E0B648 3px solid;
+}
+
+.nav {
+    font-size: 14px;
+    text-decoration: none;
+    color:#E0B648;
+    width: 100%;
+    height: 100%;
+}
+
+.navbox {
+    display: inline-block;
+    padding: 5px 8px;
+    color:#E0B648;
+    height: 24px;
+    display: table-cell;
+    vertical-align: middle
+}
+
+.navbox:hover {
+    background-color: #E0B648;
+    color:#000;
+    transition: 0.3s;
+}
+
+
+
+/* Questions */
+
+.questions {
+    align-items: center;
+}
+
+.questionsHeader {
+    /* background-color: #E0B648; */
+    color: #000;
+    /* border: #000 3px solid; */
+    padding-bottom: 10px;
+    border-bottom: #E0B648 3px solid;
+    font-size: 30px;
+    width: 12%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.questionBlock {
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 20px 200px;
+    margin-bottom: 100px;
+}
+
+.questionHeader {
+    font-size: 50px;
+    font-weight: 700;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: #fff 3px solid;
+}
+
+.questionText {
+    display: block;
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 15px 20px;
+    max-width: 80%;
+}
+
+.questionTextRight {
+    text-align: end;
+}
+
+.questionBlockLeft {
+    justify-content: start;
+    background: linear-gradient(90deg, #E0B648 0%, rgba(224, 182, 72, 1) 5.1%, rgba(148, 120, 49, 1) 15%, rgb(34, 30, 19, 1) 23.33%, rgb(0, 0, 0, 1) 100%);
+}
+
+.questionBlockRight {
+    justify-content: end;
+    background: linear-gradient(90deg, rgb(0, 0, 0, 1) 0%, rgb(34, 30, 19, 1) 76.67%, rgba(148, 120, 49, 1) 85%, rgba(224, 182, 72, 1) 94.9%, #E0B648 100%);
+}
+
+
+
+/* Examples */
+
+.examples {
+    display: block;
+    margin: auto auto;
+    width: 80%;
+}
+
+.examplesHeader {
+    /* background-color: #E0B648; */
+    color: #000;
+    /* border: #000 3px solid; */
+    padding-bottom: 10px;
+    border-bottom: #E0B648 3px solid;
+    font-size: 30px;
+    width: 12%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.exampleBlock {
+    justify-content: end;
+    width: 60%;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.exampleBlockRight{
+    justify-content: start;
+    margin-left: 40%;
+}
+
+.exampleText {
+    font-size: 14px;
+    line-height: 1.4;
+    padding: 15px 20px;
+    max-width: 90%;
+}
+
+.exampleTextRight {
+    text-align: end;
+}
+
+.exampleHeader {
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: #E0B648 3px solid;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footerContainer {
+    max-width: 80%;
+    margin: auto auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #E0B648 3px solid;
+}
+
+.contactsBlock {
+    width: 40%;
+    font-size: 24px;
+} 
+
+.contactsHeader {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0px;
+    border-bottom: #E0B648 3px solid;
+}
+
+.contactsAll {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.contactEl {
+    text-decoration: none;
+    color: rgb(203, 190, 174);
+}
+
+.contactEl:hover {
+    color: #E0B648;
+    transition: 0.3s;
+}
+
+.anotherProjectBlock {
+    width: 40%;
+    font-size: 24px;
+    /* text-align: end; */
+}  
+
+.anotherProjectAll {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.anotherProjectHeader {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 0px;
+    border-bottom: #E0B648 3px solid;
+}
+
+.projectEl {
+    text-decoration: none;
+    color: rgb(203, 190, 174);
+}
+
+.projectEl:hover {
+    color: #E0B648;
+    transition: 0.3s;
+}
+
+.createBy {
+    padding: 10px 0px;
+    text-align: center;
+}
