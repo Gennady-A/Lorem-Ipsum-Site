@@ -170,6 +170,32 @@ p {
     border-bottom: #E0B648 3px solid;
 }
 
+.generator {
+    display: block;
+    margin: auto auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.generatorHeader {
+    /* background-color: #E0B648; */
+    color: #000;
+    /* border: #000 3px solid; */
+    padding-bottom: 10px;
+    border-bottom: #E0B648 3px solid;
+    font-size: 30px;
+    width: 16%;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.generatorBlock {
+    display: flex;
+}
+
+.generatorForm {
+    min-width: 30%;
+}
 
 
 /* Footer */

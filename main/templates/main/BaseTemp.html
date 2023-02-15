@@ -107,6 +107,31 @@
             </div>
         </div>
 
+        <div class="generator">
+            <h1 class="generatorHeader">Lorem Ipsum</h1>
+            
+            <div class="generatorBlock">
+
+                <div class="generatorForm">
+                <form method="POST" class="post-form">{% csrf_token %}
+                    <input type="text" name="amount" value="5" size="3" id="amount" />
+                    <p>
+                        <input type="checkbox" name="start1" id="start" value="yes" checked="checked" />
+                        <label for="start">Начать с 'Lorem ipsum dolor sit amet...'</label><br>
+                        <input type="radio" name="what" value="paragraphs">Параграф<br>
+                        <input type="radio" name="what" value="words">Слово<br>
+                        <input type="radio" name="what" value="bytes">Символ<br>
+                        <input type="radio" name="what" value="lists">Страница
+                    </p>
+                    <button type="submit" class="save btn btn-default">Generate</button>
+                </form>
+                </div>
+
+                <!-- <div class="generatorText">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."</div> -->
+                <div class="generatorText"><p>{{ generatorText }}</p></div>
+            </div>
+        </div>
+
     </body>
 
     <footer>
