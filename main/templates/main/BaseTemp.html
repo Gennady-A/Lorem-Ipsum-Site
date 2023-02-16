@@ -117,13 +117,13 @@
                     <input type="text" name="amount" value="5" size="3" id="amount" />
                     <p>
                         <input type="checkbox" name="start1" id="start" value="yes" checked="checked" />
-                        <label for="start">Начать с 'Lorem ipsum dolor sit amet...'</label><br>
-                        <input type="radio" name="what" value="paragraphs">Параграф<br>
-                        <input type="radio" name="what" value="words">Слово<br>
-                        <input type="radio" name="what" value="bytes">Символ<br>
-                        <input type="radio" name="what" value="lists">Страница
+                        <label for="start">'Lorem ipsum dolor sit amet...'</label><br>
+                        <input type="radio" name="what" value="paragraphs">{% block paragraphs %} {% endblock %}<br>
+                        <input type="radio" name="what" value="words">{% block words %} {% endblock %}<br>
+                        <input type="radio" name="what" value="bytes">{% block bytes %} {% endblock %}<br>
+                        <input type="radio" name="what" value="lists">{% block lists %} {% endblock %}
                     </p>
-                    <button type="submit" class="save btn btn-default">Generate</button>
+                    <button type="submit" class="save btn btn-default">{% block generateButton %} {% endblock %}</button>
                 </form>
                 </div>
 
@@ -150,9 +150,9 @@
             <div class="anotherProjectBlock">
                 <div class="anotherProjectHeader">{% block anotherProjects %} {% endblock %}</div>
                 <div class="anotherProjectAll">
-                    <p>JoyNot: <a class="projectEl" href="https://github.com/Gennady-A/JoyNot">JoyReactor-уведомления</a></p>
-                    <p>Password Generator: <a class="projectEl" href="https://github.com/Gennady-A/PasswordGenerator">генератор паролей на PySide6</a></p>
-                    <p>ACMP_Full: <a class="projectEl" href="https://github.com/Gennady-A/ACMP_Full">Задачи проекта ACMP</a></p>
+                    <p>JoyNot: <a class="projectEl" href="https://github.com/Gennady-A/JoyNot">{% block linkJoyNot %} {% endblock %}</a></p>
+                    <p>PassGen: <a class="projectEl" href="https://github.com/Gennady-A/PasswordGenerator">{% block linkPassGen %} {% endblock %}</a></p>
+                    <p>ACMP_Full: <a class="projectEl" href="https://github.com/Gennady-A/ACMP_Full">{% block linkACMP %} {% endblock %}</a></p>
                 </div>
             </div>
         </div>
